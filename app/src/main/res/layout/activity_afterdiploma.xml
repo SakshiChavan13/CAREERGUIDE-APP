@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    tools:context=".afterdiploma">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/aftdiploma" />
+
+    <TextView
+
+
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundview"
+        android:ems="10"
+
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="After Diploma major options available are :"
+        android:textColor="#F0FFFFFF"
+        android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="423dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/amita"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="1. B.Tech Lateral Entry Scheme"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/the_most_popular_option_for_polytechnic_diploma_holders_especially_those_from_engineering_domains_is_to_take_up_b_tech_or_b_e_for_this_candidates_need_to_appear_for_the_respective_engineering_entrance_test_for_the_college_and_course_they_want_to_join_many_engineering_colleges_offer_lateral_entry_to_engineering_diploma_holders_lateral_entry_means_you_can_join_the_engineering_programme_directly_in_the_second_year_or_the_third_semester_of_b_tech_b_e_programme_several_colleges_hold_separate_entrance_test_to_screen_diploma_holders_for_admission_via_lateral_entry_scheme"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="423dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/amita"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="2. AIME Certification"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/editTextTextMultiLine5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/another_option_for_diploma_holders_from_engineering_background_is_to_take_up_the_aime_certification_course_a_m_i_e_associate_member_of_the_institutions_of_engineers_certification_is_a_professional_certification_equivalent_to_b_e_degree_the_candidates_who_complete_the_aime_course_are_awarded_aime_certificate_by_the_institute_of_engineering_india_the_aime_exam_consists_of_two_sections_and_it_takes_around_4_years_to_complete_the_programme_however_polytechnic_diploma_holders_do_not_need_to_appear_for_a_few_papers_from_section_a_i_e_project_work_therefore_they_can_earn_the_aime_certification_in_mere_3_years"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="423dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/amita"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="3.Job Opportunities"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/editTextTextMultiLine6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#991B749C"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+            android:text="i)Public Sector / PSUs"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+            android:text="@string/top_companies_hiring_polytechnic_diploma_graduates_a_railways_b_indian_army_c_gail_gas_authority_of_india_limited_d_ongc_oil_natural_gas_corporation_e_drdo_defence_research_and_development_organization_f_bhel_bharat_heavy_electricals_limited_g_ntpc_national_thermal_power_corporation_h_public_work_departments_i_bsnl_bharat_sanchar_nigam_limited_j_irrigation_departments_k_infrastructure_development_agencies_l_nsso_national_sample_survey_organization_m_ipcl_indian_petro_chemicals_limited"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#991B749C"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+            android:text="ii)Private Sector"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:text="@string/top_private_sector_companies_hiring_polytechnic_diploma_holders_a_airlines_indigo_spicejet_jet_airways_etc_b_construction_firms_unitech_dlf_jaypee_associated_gmr_infra_mitas_etc_c_communication_firms_bharti_airtel_reliance_communications_idea_cellular_etc_d_computer_engineering_firms_tcs_hcl_wipro_polaris_etc_e_automobiles_maruti_suzuki_toyota_tata_motors_mahindra_bajaj_auto_etc_f_electrical_power_firms_tata_power_bses_seimens_l_t_etc_g_mechanical_engg_firms_hindustan_unilever_acc_ltd_voltas_etc"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/borderblue"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:text="@string/career_guide_wishes_you_good_luck_for_your_future" />
+
+
+    </LinearLayout>
+</ScrollView>

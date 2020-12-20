@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".tenresult2" >
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/roundview"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Result"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/borderblue"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:gravity="start|top"
+        android:includeFontPadding="true"
+
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/well_done_it_seems_that_you_are_interested_in_science"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="194dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/chem" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="148dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/comp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/doctor" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="#99141414"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:gravity="start|top"
+
+        android:includeFontPadding="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/opting_for_science_stream_opens_up_both_medical_and_non_medical_career_options_including_medical_science_engineering_and_other_interdisciplinary_careers_top_schools_in_greater_noida_if_interested_in_a_medical_field_you_will_have_to_include_biology_along_with_physics_and_chemistry_as_your_core_subject_combination_while_for_engineering_you_will_have_to_replace_biology_for_mathematics_or_computer_science_as_the_core_subject_by_studying_in_science_stream_after_10th_students_can_opt_to_pursue_the_further_higher_education_in_diverse_fields_such_as_biochemistry_bioinformatics_cytology_dental_science_genetics_pharmaceuticals_space_exploration_biotechnology_metallurgy_forensic_science_and_many_others_besides_the_ever_popular_medical_and_engineering_options"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/borderblue"
+        android:ems="10"
+        android:fontFamily="@font/alice"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:text="@string/career_guide_wishes_you_good_luck_for_your_future" />
+</LinearLayout>
+
+</ScrollView>

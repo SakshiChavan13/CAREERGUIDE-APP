@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    tools:context=".after10">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/afterten" />
+
+        <TextView
+
+
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundview"
+            android:ems="10"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/after_10th_major_options_available_are"
+            android:textColor="#F0FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/amita"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/_1_class_xi_class_xii"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/it_is_two_years_of_preparatory_studies_of_a_course_three_main_streams_are_available_to_study_which_are_given_below"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:background="#991B749C"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/i_science"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:fontFamily="@font/alice"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:text="@string/if_you_are_opting_science_then_you_will_have_to_study_pcm_physics_chemistry_and_mathematics_core_subjects_along_with_biology_or_computer_science_or_electronics_or_it_depending_on_further_studies_apart_from_these_core_subjects_languages_will_be_a_part_of_the_curriculum_too"
+        android:background="#99141414"/>
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/ii_commerce"
+            android:background="#991B749C"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:fontFamily="@font/alice"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:background="#99141414"
+            android:text="@string/the_core_subjects_of_commerce_are_business_economics_accountancy_business_study_and_business_law_not_just_these_but_you_will_have_exposure_to_income_tax_accounting_marketing_and_other_related_subjects" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/iii_arts_humanities"
+            android:background="#991B749C"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"/>
+
+
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:fontFamily="@font/alice"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:background="#99141414"
+            android:text="@string/with_a_great_number_of_choices_to_study_arts_offers_a_wide_range_of_options_that_are_no_less_in_comparison_to_science_and_commerce_students_can_study_sociology_history_literature_psychology_political_science_philosophy_economics_etc_along_with_compulsory_language_subject"/>
+
+        <TextView
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:text="@string/_2_polytechnic_diploma_courses"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amita"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:fontFamily="@font/alice"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:background="#99141414"
+            android:text="@string/polytechnic_diploma_courses_are_diploma_courses_one_can_join_after_class_x_or_class_xii_the_3_year_course_offers_many_options_to_study_mechanical_computer_science_civil_automobile_bio_technology_agriculture_architecture_textile_technology_chemical_marine_technology_bio_medical_etc"/>
+
+        <TextView
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:text="@string/_3_paramedical_courses"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amita"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:fontFamily="@font/alice"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:background="#99141414"
+            android:text="@string/the_paramedical_branch_is_related_to_allied_healthcare_sector_and_just_like_medical_courses_paramedical_courses_provide_good_opportunities_with_regard_to_career_this_course_trains_the_students_who_later_work_as_healthcare_workers_and_technicians_healthcare_industry_is_huge_and_the_roles_that_are_to_play_are_numerous"/>
+
+        <TextView
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/_4_industrial_trading_institute_iti"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amita"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/iti_comes_under_directorate_general_of_employment_training_dget_it_is_a_government_training_institute_which_trains_students_and_makes_them_skilled_in_various_industries_training_will_be_provided_in_mechanical_work_electronics_information_technologies_fabrication_automobile_diesel_mechanics_lift_mechanics_computer_software_sheet_metal_electrical_plumbing_wiring_etc_it_is_similar_to_a_diploma_but_the_duration_of_the_course_varies"
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btnround"
+            android:text="NEXT"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>

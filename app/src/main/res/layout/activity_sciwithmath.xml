@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    tools:context=".sciwithmath">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundview"
+        android:ems="10"
+
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="After 12th Science with Maths major options available are :"
+        android:textColor="#F0FFFFFF"
+        android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="1.Engineering"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/engineering_is_the_most_popular_career_option_amongst_pcm_students_to_become_an_engineer_a_student_needs_to_pursue_b_tech_b_e_degree_there_are_many_colleges_offering_b_tech_degree_the_most_renowned_and_popular_institute_is_indian_institute_of_technology_to_get_this_degree_you_need_to_give_entrance_exams_like_iit_jee_mains_advanced_bitsat_etc_engineers_figure_out_how_things_work_and_find_practical_uses_for_scientific_discoveries_scientists_and_inventors_often_get_the_credit_for_innovations_that_advance_the_human_condition_but_it_is_engineers_who_are_instrumental_in_making_those_innovations_available_to_the_world_the_field_of_engineering_is_divided_into_a_large_number_of_specialty_areas_mechanical_engineering_involves_design_manufacturing_inspection_and_maintenance_of_machinery_equipment_and_components_electrical_engineering_involves_design_testing_manufacturing_construction_control_monitoring_and_inspection_of_electrical_and_electronic_devices_machinery_and_systems_civil_engineering_involves_design_construction_maintenance_and_inspection_of_large_infrastructure_projects_such_as_highways_railroads_bridges_aerospace_engineering_involves_design_manufacturing_and_testing_of_aircraft_and_spacecraft_as_well_as_parts_and_components_such_as_airframes_power_plants_control_and_guidance_systems_electrical_and_electronic_systemschemical_engineering_is_the_practice_of_designing_equipment_systems_and_processes_for_refining_raw_materials_and_for_mixing_compounding_and_processing_chemicals_to_make_valuable_products_computer_engineering_is_the_practice_of_designing_computer_hardware_components_computer_systems_networks_and_computer_software_and_many_other_fields"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="2.Architecture"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:text="@string/architecture_is_the_second_most_popular_career_option_for_mathematics_students_the_degree_required_to_become_an_architect_is_b_arch_there_are_multiple_colleges_that_offer_this_degree_like_iits_nits_cept_etc_you_can_opt_for_a_career_in_interior_design_industrial_design_urban_design_landscape_architecture_etc_the_required_entrance_exams_are_nata_aat_etc_architecture_is_the_practice_of_designing_and_constructing_buildings_it_requires_good_drawing_skills"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="3.Aviation"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:text="@string/if_you_want_to_become_a_commercial_pilot_then_aviation_is_the_right_option_for_you_other_option_like_aircraft_maintenance_engineer_is_also_a_good_scope_when_you_get_into_aviation_there_are_many_aviation_institutes_in_india_that_offer_aviation_related_degree_training_pilot_aptitude_test_wombat_is_a_way_to_get_into_this_field"
+            android:textSize="20sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="4.National Defence"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:text="@string/if_you_want_to_be_a_part_of_the_indian_navy_indian_air_force_indian_army_then_you_can_opt_for_this_option_national_defence_academy_conducts_an_nda_exam_that_offers_admission_to_a_fulltime_residential_undergraduate_program_where_cadets_are_given_a_bachelor_s_degree_in_various_fields"
+            android:textSize="20sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="5.Bachelor of Science (B.Sc)"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:text="@string/bachelor_of_science_is_a_3_year_programme_and_students_can_apply_for_this_course_after_class_12there_are_a_wide_range_of_courses_available_for_the_students_in_the_science_stream_the_students_may_go_for_a_plain_b_sc_or_he_might_choose_b_sc_honors_the_students_who_are_interested_in_the_computer_and_information_technology_field_can_go_for_b_sc_computer_science_it_students_who_have_an_academic_background_of_science_at_10_2_level_they_can_pursue_b_sc_programme_in_various_branches"
+            android:textSize="20sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="6.Merchant Navy"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/international_trade_cargo_if_these_terms_get_your_attention_then_the_merchant_navy_is_perfect_for_you_this_is_one_of_the_most_exciting_fields_for_mathematics_graduates_you_can_work_in_various_departments_of_a_merchant_ship_like_deck_architecture_the_engine_catering_etc_colleges_like_indian_maritime_university_international_maritime_institute_international_maritime_academy_etc_provide_degrees_like_hnd_marine_engineering_bachelor_of_science_in_nautical_technology_etc_required_entrance_exam_aimnet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="7.Forensic Science"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/do_you_like_investigating_then_this_new_field_of_forensic_science_is_the_option_for_you_it_is_an_applied_field_that_requires_knowledge_of_various_science_related_streams_you_can_become_a_crime_scene_investigator_forensic_ballistics_expert_forensic_scientist_digital_forensics_expert_etc_there_are_multiple_institutes_that_offer_a_degree_in_forensic_science_mostly_at_pg_level"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="8.Research and Teaching"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/you_can_also_pursue_a_career_in_research_and_teaching_field_after_completing_your_bachelor_s_degree_you_will_require_a_master_s_degree_for_this_option_there_are_many_national_level_exams_you_can_give_to_get_into_master_s_courses_like_csir_net_iit_jam_you_can_also_go_for_doctoral_courses_after_your_post_graduation"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="9.Government Jobs and Career Options"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/i_indian_armed_forces_ii_mini_ratnas_and_nav_ratnas_like_bhel_gail_bccl_iocl_iii_psus_iv_banking_and_finance_sectors_v_drdo_vi_isro_vii_national_aeronautical_limited_nal_viii_indian_railways_and_metros_ix_meteorologists_x_income_tax_department_xi_govt_institutes_universities"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="10. Other courses from commerce and arts"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="Yes, you can switch to commerce and arts course, you can opt for chartered accountant ,llb  etc"/>
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/borderblue"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:text="@string/career_guide_wishes_you_good_luck_for_your_future" />
+
+
+    </LinearLayout>
+
+</ScrollView>

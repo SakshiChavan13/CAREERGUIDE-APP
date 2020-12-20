@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "726653794722",
+    "firebase_url": "https://career-guide-960f1.firebaseio.com",
+    "project_id": "career-guide-960f1",
+    "storage_bucket": "career-guide-960f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726653794722:android:69ae1213197fbc959e5afb",
+        "android_client_info": {
+          "package_name": "com.example.careerguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726653794722-23eg2576b9e6vdv91q2utsrn20plu9fe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.careerguide",
+            "certificate_hash": "fa1eac29f825233cfec8530720e1c236a38f4ead"
+          }
+        },
+        {
+          "client_id": "726653794722-d383kg5mt45drllbqv9eprloh66psmhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBymg5gy8BeukN7lI8Tac_kUWrr_28vemw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726653794722-d383kg5mt45drllbqv9eprloh66psmhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".tenresult3" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/roundview"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Result"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/borderblue"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+            android:includeFontPadding="true"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="Well done ! It seems that you are interested in commerce ."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="221dp"
+            android:layout_height="148dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/bss" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="225dp"
+            android:layout_height="158dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ca" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="232dp"
+            android:layout_height="163dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/bnk" />
+
+
+
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:includeFontPadding="true"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/commerce_directly_or_indirectly_is_linked_with_business_especially_with_the_distribution_aspect_commerce_helps_in_creating_a_proper_distribution_channel_and_creates_a_market_for_surplus_commodities_it_has_been_already_proven_that_good_commerce_performs_an_enormous_role_in_the_economic_development_of_a_country_some_well_defined_career_opportunities_after_taking_commerce_subject_in_class_10th_are_chartered_accountancy_company_secretary_business_management_cost_accountancy_etc_however_students_after_10_2_can_pursue_chartered_accountancy_and_cost_accountancy_courses_directly_but_it_is_advisable_to_take_first_a_degree_course_in_b_com_along_with_computer_education_to_achieve_the_future_goal_and_make_a_career_successful_students_who_deal_with_numbers_easily_and_find_it_interesting_and_who_aim_to_shape_their_career_in_financial_economics_and_business_corporate_world_should_take_commerce"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:layout_constraintVertical_bias="0.1" />
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/borderblue"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:text="@string/career_guide_wishes_you_good_luck_for_your_future" />
+    </LinearLayout>
+
+</ScrollView>

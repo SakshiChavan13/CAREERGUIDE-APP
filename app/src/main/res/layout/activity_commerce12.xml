@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".commerce12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundview"
+            android:ems="10"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="After 12th Commerce major options available are :"
+            android:textColor="#F0FFFFFF"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="1.BACHELOR OF MANAGEMENT STUDIES"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/if_you_want_to_pursue_a_career_in_management_you_should_consider_applying_for_the_bachelor_of_management_degree_this_is_a_degree_that_prepares_you_to_take_on_managerial_roles_and_also_has_subjects_that_teach_you_all_aspects_of_running_a_successful_business_look_for_a_degree_course_that_along_with_theory_also_includes_practical_work_internships_industry_visits_lectures_by_industry_experts_and_placements_this_degree_is_also_a_gateway_degree_to_an_mba_as_the_coursework_is_similar"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="2.BACHELOR OF ECONOMICS"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/this_is_similar_to_a_b_com_degree_but_you_get_to_specialise_in_the_subject_of_economics_the_bachelor_of_economics_is_a_combination_of_basic_and_advanced_economics_with_students_gaining_an_in_depth_understanding_of_micro_and_macro_level_concepts_of_economics_the_bachelor_of_economics_degree_course_is_a_3_year_long_course_and_is_available_with_all_the_best_universities_it_opens_doors_for_you_to_become_an_economist_ph_d_holder_and_for_competitive_exams"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="3. BACHELOR OF COMMERCE IN ACCOUNTING AND FINANCE"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/a_bachelor_of_commerce_in_accounting_finance_degree_is_one_of_the_best_courses_to_do_after_12th_if_you_like_numbers_and_want_to_immediately_start_a_career_after_graduation_you_learn_the_fundamentals_and_actual_accounting_and_financial_management_this_is_usually_a_3_year_long_course_and_some_universities_also_call_this_course_bachelor_of_finance_accounting_after_graduation_you_are_eligible_to_get_a_job_or_you_can_further_study_to_become_a_financial_analyst_or_chartered_accountant"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="4. BACHELOR OF COMMERCE IN BANKING AND INSURANCE"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/if_you_want_to_make_a_career_in_the_financial_services_sector_get_a_bachelor_of_commerce_in_banking_insurance_degree_in_this_you_learn_activities_in_banking_finance_investment_business_analytics_risk_assessment_and_use_of_financial_software_bachelor_of_commerce_in_banking_insurance_is_a_3_year_degree_course_and_will_get_you_a_good_job_right_after_graduation_however_you_can_also_get_postgraduate_degrees_and_courses_to_get_further_boost_for_career_opportunities"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="5. BACHELOR OF COMMERCE IN FINANCIAL MARKETS"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/f_you_are_interested_in_trading_in_the_financial_markets_of_the_world_the_bachelor_of_commerce_in_financial_markets_is_the_degree_you_should_pursue_in_the_course_you_will_learn_trading_commodities_bonds_and_stocks_markets_institutions_foreign_exchange_markets_debt_equity_markets_and_various_financial_assets_the_bachelor_of_commerce_in_financial_markets_is_a_3_year_degree_course_that_will_make_you_eligible_to_work_in_the_financial_markets_and_institutions_of_the_country_you_can_study_further_to_become_a_stockbroker_investment_banker_financial_analyst_etc"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="6.CHARTERED ACCOUNTANCY"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/one_of_the_most_respected_and_difficult_education_streams_is_chartered_accountancy_many_students_try_and_fail_but_even_completing_a_few_years_in_a_ca_course_is_considered_valuable_the_ca_course_has_been_reduced_to_3_5_years_and_is_still_very_tough_but_once_you_become_a_chartered_accountant_your_career_and_earning_prospects_skyrocket_in_it_you_learn_subjects_like_auditing_tax_laws_taxation_business_laws_and_corporate_laws"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="7. BACHELOR OF LAWS (LLB)"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/if_you_are_passionate_about_law_you_dont_have_to_finish_graduation_first_you_can_now_opt_for_it_right_after_12th_standard_with_an_integrated_law_course_that_usually_lasts_up_to_a_period_of_5_years_however_in_the_end_you_are_a_qualified_lawyer_who_can_practice_in_llb_you_will_learn_subjects_like_labour_laws_industrial_laws_property_laws_banking_laws_company_laws_environmental_laws_family_laws_human_rights_laws_and_more_later_you_choose_a_specialisation_to_become_a_lawyer_in_that_particular_field"/>
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="8.JOURNALISM AND MASS COMMUNICATION"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/journalism_and_mass_communication_is_one_of_the_most_popular_and_creative_courses_to_do_after_12th_standard_some_universities_provide_a_3_year_bachelors_degree_while_some_also_have_an_integrated_5_year_course_that_includes_a_masters_degree_the_advantage_of_journalism_and_mass_communication_is_that_you_can_choose_specialisations_and_make_a_career_in_the_field_of_journalism_advertising_public_relations_or_filmmaking_students_with_a_flair_for_writing_and_other_creative_arts_should_consider_a_journalism_mass_communication_degree"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="9.BACHELOR OF EVENT MANAGEMENT"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/event_management_is_one_of_the_hardest_things_to_do_with_so_many_events_being_conducted_there_was_a_need_for_professional_event_managers_this_gave_rise_to_the_bachelor_of_event_management_degree_course_in_this_course_you_are_taught_all_the_aspects_involved_in_planning_organising_and_conducting_an_event_some_mass_communication_degrees_also_include_event_management_as_a_specialized_subject_but_you_can_opt_for_the_degree_if_you_are_interested"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="10. BACHELOR OF BUSINESS ADMINISTRATION"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/the_bachelor_of_business_administration_degree_is_known_to_be_a_stepping_stone_for_an_mba_however_on_its_own_it_still_has_a_lot_of_merit_and_can_get_you_an_excellent_job_in_a_managerial_or_administrative_position_the_bachelor_of_business_administration_is_a_3_year_degree_where_you_learn_all_the_fundamentals_of_management_and_subjects_like_accounting_finance_marketing_statistics_human_resources_and_more_some_universities_also_provide_an_integrated_mba_course_that_includes_bba"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="11.BACHELOR OF COMPUTER APPLICATION"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/those_interested_in_being_a_part_of_the_countrys_growing_it_industry_should_opt_for_bachelor_of_computer_application_this_course_is_about_computer_languages_and_its_applications_in_business_industry_and_more_with_subjects_like_networking_data_structuring_database_development_and_programming_languages_the_bachelor_of_computer_application_also_sets_you_up_for_further_education_and_careers_in_computer_application"/>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/borderblue"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:text="@string/career_guide_wishes_you_good_luck_for_your_future" />
+
+
+    </LinearLayout>
+</ScrollView>

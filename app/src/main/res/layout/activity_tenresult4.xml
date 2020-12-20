@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".tenresult4" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/roundview"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/result"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/borderblue"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+            android:includeFontPadding="true"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/well_done_it_seems_that_you_are_interested_in_arts"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="240dp"
+            android:layout_height="139dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/art1" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="255dp"
+            android:layout_height="147dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/art2" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="251dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/art3" />
+        <TextView
+            android:id="@+id/editTextTextMultiLine11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:includeFontPadding="true"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/apart_from_getting_a_chance_to_learn_diverse_fields_such_as_politics_sociology_social_service_literature_journalism_philosophy_and_psychology_students_can_opt_for_many_professional_courses_after_studying_arts_stream_in_current_times_art_students_have_many_stable_job_opportunities_in_the_market_ach_college_offers_a_different_set_of_subjects_to_arts_students_after_10th_the_overall_nature_of_the_syllabus_though_is_similar_across_india_learning_english_and_one_other_language_is_compulsory_apart_from_that_students_are_allowed_to_take_various_combinations_of_subjects_if_you_wish_to_study_a_particular_subject_checking_it_on_college_websites_would_be_ideal"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:layout_constraintVertical_bias="0.1" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/borderblue"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:text="@string/career_guide_wishes_you_good_luck_for_your_future" />
+
+    </LinearLayout>
+
+</ScrollView>

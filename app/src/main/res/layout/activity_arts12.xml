@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".arts12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundview"
+            android:ems="10"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="After 12th ARTS major options available are :"
+            android:textColor="#F0FFFFFF"
+            android:textSize="24sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="1. Bachelor of Arts (B.A.)"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/bachelor_of_arts_is_a_full_time_3_year_undergraduate_course_in_three_domains_humanities_social_sciences_and_liberal_arts_it_is_available_in_many_different_types_of_specializations_such_as_psychology_history_archaeology_geography_economics_journalism_mass_communication_sociology_anthropology_literature_and_languages_all_the_major_languages_the_best_thing_about_graduating_with_a_b_a_honours_is_that_students_enjoy_plenty_of_job_opportunities_spread_across_industries_like_academia_tourism_hospitality_aviation_bfsi_sector_media_and_entertainment_and_also_government_agencies"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="2.Bachelor of Fine Arts (B.F.A.)"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/if_you_are_wondering_what_to_do_after_12th_arts_a_popular_career_choice_among_students_after_12th_arts_is_studying_fine_arts_bachelor_of_fine_arts_is_the_perfect_career_option_for_aspirants_who_have_a_creative_flair_just_like_b_a_course_b_f_a_is_also_a_3_year_program_that_includes_fine_arts_visual_arts_and_performing_arts_students_can_take_up_unique_specialization_courses_like_theatre_film_making_music_dance_painting_and_sculpting_pottery_and_ceramics_creative_writing_architectural_drawing_textile_design_and_animation"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="3. Bachelor of Business Administration (B.B.A.)"
+            android:textColor="#BAFFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/bba_is_the_most_popular_course_available_for_students_one_of_the_best_courses_after_12th_arts_bachelor_of_business_administration_is_most_coveted_and_pursued_bachelor_degree_career_options_after_class_12th_the_best_part_about_the_b_b_a_course_is_that_it_is_open_to_all_students_hailing_from_the_three_streams_arts_commerce_and_science_it_is_a_3_year_full_time_undergraduate_course_that_opens_up_employment_opportunities_in_a_host_of_industrial_sectors_like_sales_marketing_finance_education_hospitality_and_government"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="4. Integrated Law course (B.A + L.L.B.)"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/as_the_name_suggests_and_integrated_law_course_refers_to_dual_degrees_one_being_bachelor_of_arts_b_a_and_the_other_being_bachelor_of_legislative_law_l_l_b_since_it_combines_two_full_fledged_courses_the_course_duration_is_5_years_divided_into_ten_semesters_the_biggest_perk_of_pursuing_an_integrated_law_course_is_that_you_can_obtain_dual_degrees_within_the_scope_of_one_curriculum_the_syllabus_is_planned_in_a_way_that_both_the_courses_merge_seamlessly_complementary_with_one_another_for_example_the_course_curriculum_of_a_b_a_l_l_b_program_will_cover_a_vast_range_of_subjects_from_both_domains_including_sociology_economics_history_etc_along_with_the_chief_law_subjects_like_law_of_evidence_company_law_crime_law_human_rights_international_law_environmental_law_and_civil_procedure_code_cpc_to_name_a_few_thus_students_having_a_b_a_l_l_b_degree_can_sit_for_the_bar_council_of_india_exam_to_earn_the_professional_licence_for_practising_law_which_makes_it_one_of_the_best_courses_after_12th_arts"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="5. Bachelor of Journalism and Mass Communication (B.J.M.)"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/bachelor_of_journalism_and_mass_communication_is_a_3_year_undergraduate_course_divided_into_six_semesters_the_course_curriculum_includes_a_variety_of_fields_such_as_print_journalism_television_and_radio_production_television_production_and_writing_advertising_and_public_relations_event_management_social_media_film_studies_and_media_law_and_ethics_the_extensive_course_curriculum_is_perfectly_balanced_to_encourage_students_to_develop_technical_skills_in_all_relevant_domains_of_journalism_and_mass_communication_and_impart_theoretical_knowledge_determining_their_features_and_usage_a_b_j_m_graduate_can_pursue_a_career_in_radio_print_media_journalism_both_print_and_digital_tv_production_films_marketing_advertising_and_public_relations_among_other_things_bjm_is_one_of_the_preferred_courses_after_12th_arts"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="6. Bachelor of Fashion Design (B.F.D.)"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+            android:text="@string/bfd_is_one_of_the_best_courses_after_12th_arts_bachelor_of_fashion_design_is_a_3_to_4_year_long_undergraduate_course_specially_designed_for_aspirants_aiming_to_enter_the_fashion_industry_the_b_f_d_program_involves_the_dynamic_trends_in_the_fashion_industry_and_teaches_students_how_to_create_original_designs_for_garments_jewellery_footwear_accessories_and_so_on_bachelor_of_fashion_design_is_an_ideal_career_option_after_class_12th_arts_for_students_with_curious_and_imaginative_minds_it_teaches_candidates_industry_specific_skills_like_visual_sensibility_global_vision_of_design_prototyping_sense_of_colour_palettes_sewing_and_much_more_after_graduating_with_a_b_f_d_degree_students_can_look_for_job_opportunities_apprenticeships_with_major_fashion_houses_and_designers_in_the_country_once_they_get_a_few_years_of_industry_experience_they_can_switch_to_international_platforms"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/andada"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="7. Bachelor of Hotel Management (B.H.M.)"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#99141414"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+            android:gravity="start|top"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#BAFFFFFF"
+            android:textSize="20sp"
+android:text="@string/f_you_are_wondering_what_to_do_after_12th_arts_bhm_is_one_of_the_many_pivotal_job_roles_in_an_organization_bachelor_of_hospitality_management_is_a_3_4_year_long_undergraduate_management_course_that_trains_aspirants_to_enter_the_hospitality_industry_the_course_covers_a_broad_range_of_specialization_areas_including_tourism_event_management_lodging_management_and_the_food_and_beverage_industry_after_the_successful_completion_of_the_b_h_m_program_candidates_can_bag_diverse_job_roles_like_hotel_manager_accommodation_manager_meeting_event_planner_food_service_manager_sales_manager_food_and_beverage_manager_catering_officer_etc"/>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/borderblue"
+            android:ems="10"
+            android:fontFamily="@font/alice"
+
+            android:textColor="#BAFFFFFF"
+            android:textSize="24sp"
+            android:text="@string/career_guide_wishes_you_good_luck_for_your_future" />
+
+    </LinearLayout>
+</ScrollView>
